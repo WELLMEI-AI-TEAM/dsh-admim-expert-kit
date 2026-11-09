@@ -1,0 +1,37 @@
+{
+  "segments": [
+    {
+      "id": "S1",
+      "start": "2026-11-10T13:00:00+08:00",
+      "end": "2026-11-10T14:00:00+08:00",
+      "location": "会议室一",
+      "group": "来访组",
+      "resources": [
+        "会议室一"
+      ],
+      "kind": "meeting"
+    },
+    {
+      "id": "S2",
+      "start": "2026-11-10T14:20:00+08:00",
+      "end": "2026-11-10T15:00:00+08:00",
+      "location": "展厅",
+      "group": "来访组",
+      "resources": [
+        "展厅"
+      ],
+      "kind": "visit",
+      "guide": "示例讲解人",
+      "permission_confirmed": true,
+      "transfer_minutes": 15
+    }
+  ],
+  "departure": {
+    "at": "2026-11-10T18:40:00+08:00",
+    "group": "来访组",
+    "travel_minutes": 40,
+    "security_minutes": 30,
+    "buffer_minutes": 15,
+    "confirmed": true
+  }
+}

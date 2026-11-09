@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "date": "2026-11-09",
+  "packages": [
+    {
+      "skill": "dsh-admin-asset-ledger",
+      "version": "0.2.0",
+      "file": "dsh-admin-asset-ledger-v0.2.0.zip",
+      "sha256": "fd56ae2de3093b591a2e5f569ca412736ae5afb3252431b679d6282df1ce07f6",
+      "files": 7
+    },
+    {
+      "skill": "dsh-admin-event-planning",
+      "version": "0.2.0",
+      "file": "dsh-admin-event-planning-v0.2.0.zip",
+      "sha256": "f1a9c008d5c084b98b3b908a695ed47e0369afc1b72f49ee1f248079b6b00e4b",
+      "files": 7
+    },
+    {
+      "skill": "dsh-admin-meeting-minutes",
+      "version": "0.2.0",
+      "file": "dsh-admin-meeting-minutes-v0.2.0.zip",
+      "sha256": "d4ac16c7e8c33c50f951677e0f410f68fc3c1eadd383b2b9fd3db2b07d997e73",
+      "files": 7
+    },
+    {
+      "skill": "dsh-admin-notice-docs",
+      "version": "0.2.0",
+      "file": "dsh-admin-notice-docs-v0.2.0.zip",
+      "sha256": "82580d697bdac970b284ccf02e09695579a5ae712721aebac338ea612c24d5ce",
+      "files": 7
+    },
+    {
+      "skill": "dsh-admin-reception-travel",
+      "version": "0.2.0",
+      "file": "dsh-admin-reception-travel-v0.2.0.zip",
+      "sha256": "40d6f02ada33d9ac0ce9065b303698098d9e8d8a168793b98dc68d1326b4f635",
+      "files": 7
+    }
+  ],
+  "import_note": "Each listed ZIP is one skill. The combined ZIP is a transport bundle, not one importable skill."
+}

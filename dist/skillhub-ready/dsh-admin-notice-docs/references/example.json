@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "sender": "示例综合部",
+    "recipients": "全体员工",
+    "subject": "消防演练"
+  },
+  "dates": [
+    {
+      "id": "报名",
+      "date": "2026-11-11",
+      "weekday": 2
+    },
+    {
+      "id": "演练",
+      "date": "2026-11-13",
+      "weekday": 4
+    }
+  ],
+  "before": [
+    {
+      "earlier": "报名",
+      "later": "演练"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "observed_on": "2026-11-09",
+  "timezone": "Asia/Shanghai",
+  "metric_note": "API-reported cumulative downloads, not unique users, success rates, or proven causal quality; snapshots from separate requests can differ.",
+  "global": {
+    "endpoint": "https://api.skillhub.cn/api/skills?page=1&pageSize=15&sortBy=downloads&order=desc",
+    "sort": "downloads descending",
+    "server_total": 223140,
+    "items": [
+      {
+        "rank": 1,
+        "name": "编程大神.Skill",
+        "canonical_name": "@ake/dev-god",
+        "downloads": 11338691,
+        "version": "1.2.4",
+        "homepage": "https://api.skillhub.cn/ake/dev-god"
+      },
+      {
+        "rank": 2,
+        "name": "多引擎搜索",
+        "canonical_name": "@zcwl/multi-search-engine",
+        "downloads": 10856046,
+        "version": "3.0.1",
+        "homepage": "https://api.skillhub.cn/zcwl/multi-search-engine"
+      },
+      {
+        "rank": 3,
+        "name": "编程专家Pro.Skill",
+        "canonical_name": "@indiv-integrator/dev-expert-pro",
+        "downloads": 6283899,
+        "version": "1.1.0",
+        "homepage": "https://api.skillhub.cn/indiv-integrator/dev-expert-pro"
+      },
+      {
+        "rank": 4,
+        "name": "编程专家.Skill",
+        "canonical_name": "@indiv-ebandao/dev-expert",
+        "downloads": 6036717,
+        "version": "2.2.0",
+        "homepage": "https://api.skillhub.cn/indiv-ebandao/dev-expert"
+      },
+      {
+        "rank": 5,
+        "name": "dev-expert",
+        "canonical_name": "@user_814dbe54/dev-expert",
+        "downloads": 5305409,
+        "version": "2.2.0",
+        "homepage": "https://api.skillhub.cn/user_814dbe54/dev-expert"
+      },
+      {
+        "rank": 6,
+        "name": "AIGC过程存证服务",
+        "canonical_name": "@cic/aigccerts",
+        "downloads": 4734357,
+        "version": "1.0.4",
+        "homepage": "https://api.skillhub.cn/cic/aigccerts"
+      },
+      {
+        "rank": 7,
+        "name": "育儿大师.Skill",
+        "canonical_name": "@indiv-ebandao/parenting-expert",
+        "downloads": 3088062,
+        "version": "1.11.4",
+        "homepage": "https://api.skillhub.cn/indiv-ebandao/parenting-expert"
+      },
+      {
+        "rank": 8,
+        "name": "腾讯文档 TENCENT DOCS",
+        "canonical_name": "@tencent-adm/tencent-docs",
+        "downloads": 2289205,
+        "version": "1.0.42",
+        "homepage": "https://api.skillhub.cn/tencent-adm/tencent-docs"
+      },
+      {
+        "rank": 9,
+        "name": "防骗大师.Skill",
+        "canonical_name": "@indiv-ebandao/anti-fraud",
+        "downloads": 2045520,
+        "version": "1.0.11",
+        "homepage": "https://api.skillhub.cn/indiv-ebandao/anti-fraud"
+      },
+      {
+        "rank": 10,
+        "name": "anti-fraud",
+        "canonical_name": "@user_814dbe54/anti-fraud",
+        "downloads": 1735177,
+        "version": "2.1.0",
+        "homepage": "https://api.skillhub.cn/user_814dbe54/anti-fraud"
+      },
+      {
+        "rank": 11,
+        "name": "防诈专家",
+        "canonical_name": "@indiv-skill/anti-fraud",
+        "downloads": 1692052,
+        "version": "1.0.0",
+        "homepage": "https://api.skillhub.cn/indiv-skill/anti-fraud"
+      },
+      {
+        "rank": 12,
+        "name": "self-improving agent",
+        "canonical_name": "@clawhub_pskoett/self-improving-agent",
+        "downloads": 1633425,
+        "version": "3.0.24",
+        "homepage": "https://api.skillhub.cn/clawhub_pskoett/self-improving-agent"
+      },
+      {
+        "rank": 13,
+        "name": "技能发现·Find Skills",
+        "canonical_name": "@indiv-guipi/find-skills",
+        "downloads": 1620073,
+        "version": "1.7.0",
+        "homepage": "https://api.skillhub.cn/indiv-guipi/find-skills"
+      },
+      {
+        "rank": 14,
+        "name": "视频短视频图片音乐音频配音口播数字人全能创作",
+        "canonical_name": "@beatra-ai/beatra",
+        "downloads": 1528485,
+        "version": "2.9.8",
+        "homepage": "https://api.skillhub.cn/beatra-ai/beatra"
+      },
+      {
+        "rank": 15,
+        "name": "育儿专家",
+        "canonical_name": "@user_c0c05774/parenting-expert",
+        "downloads": 1509455,
+        "version": "1.0.1",
+        "homepage": "https://api.skillhub.cn/user_c0c05774/parenting-expert"
+      }
+    ]
+  },
+  "office": {
+    "endpoint": "https://api.skillhub.cn/api/skills?page=1&pageSize=10&sortBy=downloads&order=desc&category=office-efficiency",
+    "sort": "downloads descending",
+    "server_total": 12987,
+    "items": [
+      {
+        "rank": 1,
+        "name": "腾讯文档 TENCENT DOCS",
+        "canonical_name": "@tencent-adm/tencent-docs",
+        "downloads": 2289214,
+        "version": "1.0.42",
+        "homepage": "https://api.skillhub.cn/tencent-adm/tencent-docs"
+      },
+      {
+        "rank": 2,
+        "name": "WPS Office 全家桶",
+        "canonical_name": "@user_1a470ba8/wps-office-suite",
+        "downloads": 828555,
+        "version": "5.4.0",
+        "homepage": "https://api.skillhub.cn/user_1a470ba8/wps-office-suite"
+      },
+      {
+        "rank": 3,
+        "name": "ppt-generator-skill",
+        "canonical_name": "@user_3b34947d/ppt-generator-skill",
+        "downloads": 659481,
+        "version": "1.0.2",
+        "homepage": "https://api.skillhub.cn/user_3b34947d/ppt-generator-skill"
+      },
+      {
+        "rank": 4,
+        "name": "秘书材料星公文写作-妙笔skill",
+        "canonical_name": "@tec-wins/gongwen-writting-2",
+        "downloads": 614589,
+        "version": "1.0.71",
+        "homepage": "https://api.skillhub.cn/tec-wins/gongwen-writting-2"
+      },
+      {
+        "rank": 5,
+        "name": "WPS Office 全家桶",
+        "canonical_name": "@user_814dbe54/wps-office-suite",
+        "downloads": 566258,
+        "version": "5.0.0",
+        "homepage": "https://api.skillhub.cn/user_814dbe54/wps-office-suite"
+      },
+      {
+        "rank": 6,
+        "name": "腾讯文档在线协作自动化",
+        "canonical_name": "@org-b6kzcl68/tencent-docs",
+        "downloads": 531930,
+        "version": "1.0.2",
+        "homepage": "https://api.skillhub.cn/org-b6kzcl68/tencent-docs"
+      },
+      {
+        "rank": 7,
+        "name": "WPS全家桶·办公管家.Skill",
+        "canonical_name": "@user_185644ed/wps-office-suite",
+        "downloads": 487780,
+        "version": "5.2.10",
+        "homepage": "https://api.skillhub.cn/user_185644ed/wps-office-suite"
+      },
+      {
+        "rank": 8,
+        "name": "kdocs skill",
+        "canonical_name": "@user_5ea84866/kdocs-skill",
+        "downloads": 460836,
+        "version": "2.9.0",
+        "homepage": "https://api.skillhub.cn/user_5ea84866/kdocs-skill"
+      },
+      {
+        "rank": 9,
+        "name": "中文公文写作",
+        "canonical_name": "@user_f3d82da7/chinese-official-writing",
+        "downloads": 430381,
+        "version": "2.0.54",
+        "homepage": "https://api.skillhub.cn/user_f3d82da7/chinese-official-writing"
+      },
+      {
+        "rank": 10,
+        "name": "深知公文写作",
+        "canonical_name": "@user_c9faff27/dknowc-official-doc-writer-skillhub",
+        "downloads": 423848,
+        "version": "3.9.5",
+        "homepage": "https://api.skillhub.cn/user_c9faff27/dknowc-official-doc-writer-skillhub"
+      }
+    ]
+  },
+  "inspected_skill_entrypoints": [
+    {
+      "canonical_name": "@ake/dev-god",
+      "url": "https://api.skillhub.cn/api/v1/skills/dev-god/file?path=SKILL.md&namespace=ake",
+      "saved_text_utf8_sha256": "9b27378f7aa67b12372563e1e43d0cfce9a7299afa20aa5955030e527529e0d2",
+      "note": "Hash of retrieved text saved as UTF-8 during research; third-party skill content is not redistributed."
+    },
+    {
+      "canonical_name": "@zcwl/multi-search-engine",
+      "url": "https://api.skillhub.cn/api/v1/skills/multi-search-engine/file?path=SKILL.md&namespace=zcwl",
+      "saved_text_utf8_sha256": "83c1eff705a99ebb20e84aed2c339459c08f391ce425ae00bc2d1634fb5964b3",
+      "note": "Hash of retrieved text saved as UTF-8 during research; third-party skill content is not redistributed."
+    },
+    {
+      "canonical_name": "@indiv-integrator/dev-expert-pro",
+      "url": "https://api.skillhub.cn/api/v1/skills/dev-expert-pro/file?path=SKILL.md&namespace=indiv-integrator",
+      "saved_text_utf8_sha256": "1c5ebc295c50f274ff53555b0e1bcb29d1307dc11263ad39bba3da1e25cdcc90",
+      "note": "Hash of retrieved text saved as UTF-8 during research; third-party skill content is not redistributed."
+    },
+    {
+      "canonical_name": "@tencent-adm/tencent-docs",
+      "url": "https://api.skillhub.cn/api/v1/skills/tencent-docs/file?path=SKILL.md&namespace=tencent-adm",
+      "saved_text_utf8_sha256": "35e0e45d581fb2ef20e5e2ad2743651a5e0935d5a463b88099a2f1ca28a94b56",
+      "note": "Hash of retrieved text saved as UTF-8 during research; third-party skill content is not redistributed."
+    },
+    {
+      "canonical_name": "@user_1a470ba8/wps-office-suite",
+      "url": "https://api.skillhub.cn/api/v1/skills/wps-office-suite/file?path=SKILL.md&namespace=user_1a470ba8",
+      "saved_text_utf8_sha256": "521b79d7ce7520a28bad10a61ef77adbabce331ad893bad48c971bf17f9ccdae",
+      "note": "Hash of retrieved text saved as UTF-8 during research; third-party skill content is not redistributed."
+    },
+    {
+      "canonical_name": "@user_f3d82da7/chinese-official-writing",
+      "url": "https://api.skillhub.cn/api/v1/skills/chinese-official-writing/file?path=SKILL.md&namespace=user_f3d82da7",
+      "saved_text_utf8_sha256": "7a2aed8d49fb6ab4422eaaff5206b7bc7f64924adb3ae1670126e6f31a7be5ab",
+      "note": "Hash of retrieved text saved as UTF-8 during research; third-party skill content is not redistributed."
+    }
+  ]
+}

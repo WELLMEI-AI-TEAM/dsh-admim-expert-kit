@@ -1,36 +1,14 @@
-# 行政管理专家套件（Admin Expert Kit）· v0.1.0
+# v0.2.0 当前分发入口
 
-> **包级汇总文件：请不要把本文件单独放进技能目录。** 正确装法：把 `skills\` 下 5 个技能目录（连同各自文件夹）拷入你自己的 DSH 技能目录——Windows 为 `C:\Users\<用户名>\.dsh\skills\`，Mac/Linux 为 `~/.dsh/skills/`；新开一个会话即生效。详见包内 INSTALL.md。
+| 文件 | 用途 |
+| --- | --- |
+| upload/dsh-admin-*-v0.2.0.zip（5个） | 每包单独上传/导入一个技能，根有SKILL.md，含资料、脚本、样例和Apache-2.0许可证 |
+| upload/packages-v0.2.0.json | 5个单包版本、文件数与SHA256 |
+| admin-expert-kit-skillhub-ready-v0.2.0.zip | 5个单包与manifest的组合下载包；先解开再逐个导入，不是单个技能 |
+| admin-expert-kit-v0.2.0-MANUAL-ONLY.zip | 全套手工安装与源码包，含测试、构建工具和5个单包；按skills子目录安装 |
+| SHA256SUMS-v0.2.0.txt | 本版7个ZIP的SHA256 |
+| skillhub-ready/dsh-admin-*/ | 与源码同步的发布目录，技能名/metadata.slug使用dsh-前缀 |
 
-```
----
-name: admin-expert-kit
-description: "行政管理专家套件（5 技能包）：通知公文、会议纪要、接待与行程、办公用品与固定资产台账、活动策划，把一句话事项变成原生可编辑的 Word/Excel 成品。"
-metadata:
-  slug: "admin-expert-kit"
-  displayName: "行政管理专家"
-  version: "0.1.0"
-  summary: "行政/综合管理岗能力套件：5 技能 + 连接器增强 + 套件页（MANIFEST.md）"
----
-```
+新包尚未上传市场或进行真实宿主导入验证。旧v0.1.x ZIP保留作历史参考，当前维护版本为0.2.0，不要根据旧包名选择最新版。独立包无需其他技能、连接器、账号或pip依赖即可运行检查；制作Word/Excel仍取决于实际文档工具。
 
-## 包含技能（frontmatter 汇总）
-
-| slug | 显示名 | 版本 | 一句话能力 | 触发词示例 | 成品 |
-| --- | --- | --- | --- | --- | --- |
-| admin-notice-docs | 通知公文 | 0.1.0 | 一句话事项→规范排版的 Word 通知/请示/通报/函/启事 | 写个通知、拟个通告、发公文、关于某某的通知 | .docx |
-| admin-meeting-minutes | 会议纪要 | 0.1.0 | 散记/转写→规范纪要＋决议跟进台账 | 整理会议纪要、会后记录、决议跟进 | .docx + .xlsx |
-| admin-reception-travel | 接待与行程 | 0.1.0 | 来访信息→分级接待方案＋逐时刻行程表（冲突校验） | 来访接待、安排考察、客户到访、做个行程表 | .docx + .xlsx |
-| admin-asset-ledger | 办公用品与固定资产台账 | 0.1.0 | 带公式与低耗红警的台账＋出入库盘点流程 | 建个台账、办公用品登记、固定资产盘点、领用表 | .xlsx |
-| admin-event-planning | 活动策划 | 0.1.0 | 一句话目的→九节方案书＋预算/RACI＋倒排计划 | 年会、团建、开业、发布会、方案、预算 | .docx + .xlsx |
-
-每个技能的完整方法论与模板在 `skills\<slug>\SKILL.md` 与 `references\` 细则里（各目录 3 个文件）。
-
-## 套件门面与实证
-
-- 套件页（说明/适用角色/快捷指令/Skills/Connectors/使用边界/持续维护七节）：见包内 **MANIFEST.md**
-- 安装与验收：见包内 **INSTALL.md**
-- 连接器（可选增强）：不连任何连接器也能出全部成品；推荐连接器清单（钉钉零凭据可用等 17 个实证）见 MANIFEST.md 第五节
-- 本包不含密钥/凭据/外部账号配置；模板中电话、证照、金额一律为【待确认】占位
-
-**版本**：2026-11-02 · 维护：DSH 套件开发专家 Bot（用户委托）
+安装见 [INSTALL.md](INSTALL.md)，版本与范围见 [MANIFEST.md](MANIFEST.md)。从仓库根运行 `python -B tools/build_release.py` 可重建，再运行 `python -B tools/verify_release.py` 检查独立包和解压后的回归。

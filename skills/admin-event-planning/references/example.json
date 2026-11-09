@@ -1,0 +1,43 @@
+{
+  "currency": "CNY",
+  "ceiling": "2000",
+  "reserve_rate": "0.08",
+  "reserve_basis": "base",
+  "budget": [
+    {
+      "id": "B1",
+      "unit_price": "100",
+      "quantity": "10",
+      "currency": "CNY",
+      "status": "已锁定"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T1",
+      "R": [
+        "示例执行人"
+      ],
+      "A": [
+        "示例负责人"
+      ],
+      "start": "2026-11-09",
+      "end": "2026-11-10",
+      "depends_on": []
+    },
+    {
+      "id": "T2",
+      "R": [
+        "示例执行人"
+      ],
+      "A": [
+        "示例负责人"
+      ],
+      "start": "2026-11-11",
+      "end": "2026-11-12",
+      "depends_on": [
+        "T1"
+      ]
+    }
+  ]
+}

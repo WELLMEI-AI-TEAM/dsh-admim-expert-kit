@@ -1,2 +1,4 @@
 # Local filesystem permission recovery logs
 .acl-recovery/
+__pycache__/
+*.py[cod]

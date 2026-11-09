@@ -1,0 +1,51 @@
+{
+  "period_start": "2026-11-01",
+  "period_end": "2026-11-30",
+  "items": [
+    {
+      "id": "XS-001",
+      "unit": "包",
+      "opening": "10",
+      "safety": "2",
+      "actual": "9"
+    }
+  ],
+  "movements": [
+    {
+      "id": "M1",
+      "date": "2026-11-02",
+      "item_id": "XS-001",
+      "direction": "入",
+      "quantity": "5",
+      "unit": "包",
+      "unit_price": "20"
+    },
+    {
+      "id": "M2",
+      "date": "2026-11-03",
+      "item_id": "XS-001",
+      "direction": "领",
+      "quantity": "6",
+      "unit": "包",
+      "unit_price": "20"
+    },
+    {
+      "id": "M3",
+      "date": "2026-11-04",
+      "item_id": "XS-001",
+      "direction": "退",
+      "quantity": "1",
+      "unit": "包",
+      "unit_price": "20"
+    },
+    {
+      "id": "M4",
+      "date": "2026-11-05",
+      "item_id": "XS-001",
+      "direction": "损",
+      "quantity": "1",
+      "unit": "包",
+      "unit_price": "20"
+    }
+  ]
+}
