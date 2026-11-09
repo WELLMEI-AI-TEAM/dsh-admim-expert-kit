@@ -43,6 +43,8 @@ def main():
                 raise ValueError("Duplicate entries or CRC failure: " + path.name)
             for name in names:
                 parts = PurePosixPath(name).parts
+                if PurePosixPath(name).stem.upper() in {"LICENSE", "LICENCE"}:
+                    raise ValueError("SkillHub upload must not contain a license file: " + name)
                 if name.startswith("/") or "\\" in name or any(p.startswith(".") or ":" in p or p == "__pycache__" for p in parts):
                     raise ValueError("Unsafe or hidden path: " + name)
                 if name.endswith("SKILL.md") and archive.read(name).startswith(b"\xef\xbb\xbf"):
@@ -60,11 +62,11 @@ def main():
                         raise ValueError("Published skill body differs from source.")
                     if not re.search(r'^name: ' + re.escape(entry["skill"]) + r'$', published, re.M):
                         raise ValueError("Published skill name differs from manifest.")
-                elif name == "LICENSE":
-                    if archive.read(name) != (ROOT / "LICENSE").read_bytes():
-                        raise ValueError("Published license differs from repository.")
                 elif archive.read(name) != (source_root / name).read_bytes():
                     raise ValueError("Published resource differs from source: " + name)
+            ready = dist / "skillhub-ready" / entry["skill"]
+            if any(p.is_file() and p.stem.upper() in {"LICENSE", "LICENCE"} for p in ready.rglob("*")):
+                raise ValueError("SkillHub publish directory contains a license file.")
             archive.extractall(temp)
             extracted = Path(temp)
             links(extracted)

@@ -29,6 +29,10 @@ def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def is_license_file(path):
+    return path.stem.upper() in {"LICENSE", "LICENCE"}
+
+
 def main():
     dist = ROOT / "dist"
     upload = dist / "upload"
@@ -40,8 +44,13 @@ def main():
         published = "dsh-" + skill.name
         ready = dist / "skillhub-ready" / published
         ready.mkdir(parents=True, exist_ok=True)
+        for existing in ready.rglob("*"):
+            if existing.is_file() and is_license_file(existing):
+                existing.unlink()
         entries = []
         for source in files(skill):
+            if is_license_file(source):
+                continue
             relative = source.relative_to(skill).as_posix()
             content = source.read_bytes()
             if relative == "SKILL.md":
@@ -54,9 +63,6 @@ def main():
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_bytes(content)
             entries.append((relative, content))
-        license_bytes = (ROOT / "LICENSE").read_bytes()
-        (ready / "LICENSE").write_bytes(license_bytes)
-        entries.append(("LICENSE", license_bytes))
         path = upload / f"{published}-v{VERSION}.zip"
         archive(path, entries)
         packages.append({"skill": published, "version": VERSION, "file": path.name,

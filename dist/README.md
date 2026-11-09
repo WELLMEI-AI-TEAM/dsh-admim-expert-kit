@@ -2,7 +2,7 @@
 
 | 文件 | 用途 |
 | --- | --- |
-| upload/dsh-admin-*-v0.2.0.zip（5个） | 每包单独上传/导入一个技能，根有SKILL.md，含资料、脚本、样例和Apache-2.0许可证 |
+| upload/dsh-admin-*-v0.2.0.zip（5个） | 每包单独上传/导入一个技能，根有SKILL.md，含资料、脚本和样例，不含LICENSE文件；许可证保留在仓库根目录 |
 | upload/packages-v0.2.0.json | 5个单包版本、文件数与SHA256 |
 | admin-expert-kit-skillhub-ready-v0.2.0.zip | 5个单包与manifest的组合下载包；先解开再逐个导入，不是单个技能 |
 | admin-expert-kit-v0.2.0-MANUAL-ONLY.zip | 全套手工安装与源码包，含测试、构建工具和5个单包；按skills子目录安装 |

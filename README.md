@@ -14,7 +14,7 @@
 
 将 `skills/` 中需要的整个技能文件夹拷入 DSH 技能目录（Windows通常为 `%USERPROFILE%\.dsh\skills\`）。已有同名技能时先备份并比对个人修改，再替换；在新会话核对是否加载。仓库更新不会自动修改运行中的 DSH 配置。
 
-单独上传市场用 [dist/upload/](dist/upload/) 下的 `dsh-admin-*-v0.2.0.zip`，每包根目录有一个 `SKILL.md`，包含本技能引用的资料、脚本和许可证。新包尚未实际上传/导入市场；历史 v0.1.x 包保留，当前入口见 [dist/README.md](dist/README.md)。
+单独上传市场用 [dist/upload/](dist/upload/) 下的 `dsh-admin-*-v0.2.0.zip`，每包根目录有一个 `SKILL.md`，包含本技能引用的资料与脚本，不包含LICENSE文件。新包尚未实际上传/导入市场；历史 v0.1.x 包保留，当前入口见 [dist/README.md](dist/README.md)。
 
 脚本只需 Python 3.9+ 标准库，不联网、不改输入、不依赖其他技能：
 
